@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Temperature Converter</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+      
+<div class="container">
+    <h1 style="
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color: #538fbe;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+  ">Temperature Converter</h1>
+<input type="number" id="celsius" placeholder="Enter temperature in Celsius" style="
+width: 200px;
+height: 40px;
+border: 1px solid #ccc;
+border-radius: 5px;
+padding: 10px;
+font-size: 14px;
+font-family: sans-serif;
+color: #333;
+">
+
+<button onclick="convert()" style="
+  background-color: #538fbe;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease-in-out;
+">Convert</button>
+
+
+
+<p id="fahrenheit" style="
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #333;
+">Fahrenheit: </p>
+<p id="kelvin" style="
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #333;
+">Kelvin: </p>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
